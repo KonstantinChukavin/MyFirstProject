@@ -85,7 +85,6 @@ margin: 0px;
 .header_square-pic {
   height: 568px;
   width: 568px;
-  margin-top: 64px;
   position: absolute;
   top: 64px;
   right: 0px;
@@ -175,4 +174,30 @@ span {
   line-height: 1.2;
   font-stretch: 18px;
   font-family: 'inter-Regular', normal;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section-title {
+  width: 60%;
+  margin-top: 100px;
+  line-height: 1.15;
+  font-size: 60px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-subtitle {
+  width: 60%;
+  margin-top: 20px;
+  line-height: 34px;
+  font-size: 24px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
