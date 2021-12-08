@@ -238,3 +238,20 @@ content {
   font-family: 'inter-Regular', normal;
 }
 
+.resources_logo-zone {
+  border: 1px solid red;
+  width: 1100px;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 217px;
+  display: flex;
+  flex-direction: row;
+}
+
+.resources_logo {
+  border: 1px solid red;
+  width: 270px;
+  height: 38px;
+  margin: 0px;
+}
