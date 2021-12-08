@@ -11,6 +11,7 @@
 
 .page_dark {
   background-color: #000;
+  padding-top: 90px;
 }
 
 .header {
@@ -246,6 +247,8 @@ content {
   margin-right: auto;
   margin-bottom: 217px;
   display: flex;
+  text-align: center;
+  align-items: center;
   flex-direction: row;
 }
 
