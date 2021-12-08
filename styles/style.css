@@ -2,10 +2,6 @@ div {
   border: 1px solid red;
 }
 
-body {
-  border: 1px solid red;
-}
-
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -33,10 +29,7 @@ body {
   justify-content: space-between;
   position: relative;
   margin: auto;
-}
-
-.content {
-  border: 3px solid black;
+  align-items: center;
 }
 
 .header_title {
@@ -56,6 +49,11 @@ body {
   z-index: 3;
 }
 
+.header_link {
+  color: #2f80ed;
+  text-decoration: none;
+}
+
 .logo_place_header {
   position: absolute;
   top: 30px;
@@ -63,13 +61,6 @@ body {
   width: 183px;
   height: 32px;
   z-index: 4;
-}
-
-.header_title_content {
-display: flex;
-align-items: center;
-justify-content: space-between;
-margin: 0px;
 }
 
 .header_main-illustration {
@@ -81,7 +72,6 @@ margin: 0px;
   z-index: 2;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header_square-pic {
   height: 568px;
   width: 568px;
@@ -92,55 +82,129 @@ margin: 0px;
   z-index: 1;
 }
 
-/* и элемента с модификатором вида ключ-значение */
-.table_cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
+content {
+  border: 3px solid black;
 }
 
 .two-columns {
   max-width: 1100px;
-  display: flex;
-  margin: 100px auto;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
   width: 80%;
+  display: flex;
   justify-content: space-between;
 }
 
-.brif {
+.two-columns_brif {
   width: 175px;
   font-size: 18px;
   color: #2f80ed;
   line-height: 1.2;
-  display: flex;
-  justify-content: space-between;
 }
 
-.main-text {
+.two-columns_main-text {
   width: 80%;
   min-width: 784px;
   line-height: 34px;
   font-size: 24px;
-  display: flex;
-  flex-direction: column;
 }
 
-span {
+.span {
+  margin: 30px 0px;
+}
+
+.span-accent {
   font-family: 'inter-Bold', bold;
   line-height: 34px;
   font-size: 24px;
 }
 
-.span-accent {
-  margin: 0px 30px;
+.section-title {
+  width: 60%;
+  margin-top: 100px;
+  line-height: 1.15;
+  font-size: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  text-align: center;
+}
+
+.section-subtitle {
+  width: 60%;
+  margin-top: 20px;
+  line-height: 34px;
+  font-size: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  text-align: center;
+}
+
+
+.section {
+  border: 1px solid red;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cards {
+  width: 920px;
+  display: flex;
+  margin:auto;
+  text-align: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.cards_item {
+  border: 1px solid red;
+  margin-right: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards_item_image {
+  width: 160px;
+  height: 160px;
+  margin-top: 60px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 43px;
+}
+
+.cards_item_title {
+  border: 1px solid red;
+  line-height: 1.15;
+  font-stretch: 24px;
+  font-family: 'inter-Bold', bolder;
+  margin-bottom: 16px;
+}
+
+.cards_item_description {
+  border: 1px solid red;
+  line-height: 23px;
+  font-stretch: 18px;
+  font-family: 'inter-Regular', normal;
+}
+
+.theme_dark {
+  color: white;
 }
 
 .table {
   max-width: 1100px;
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
   margin: auto;
   flex-direction: row;
   flex-wrap: wrap;
@@ -156,11 +220,12 @@ span {
   margin-top: 60px;
 }
 
-.cell_tem_dark {
+.table_cell_theme_dark {
   width: 200px;
   margin: auto;
   justify-content: space-between;
   margin-top: 80px;
+  color: white;
 }
 
 .table_heading {
@@ -176,28 +241,3 @@ span {
   font-family: 'inter-Regular', normal;
 }
 
-.section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.section-title {
-  width: 60%;
-  margin-top: 100px;
-  line-height: 1.15;
-  font-size: 60px;
-  margin-top: 100px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.section-subtitle {
-  width: 60%;
-  margin-top: 20px;
-  line-height: 34px;
-  font-size: 24px;
-  margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
-}

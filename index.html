@@ -10,49 +10,76 @@
   <title>Научиться учиться</title>
 </head>
 
-<body>
-  <div class="page">
+<body class="page">
     <header class="header">
-      <div class="header_title_content">
-        <img class="logo_place_header" src="./images/logo.svg" alt="Логотип Яндекс Практикум">
-
+            <img class="logo_place_header" src="./images/logo.svg" alt="Логотип Яндекс Практикум">
         <h1 class="header_title">Научиться учиться</h1>
-
         <h4 class="header_subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей
           жизни?
-          <a href="#" class="header_link">Узнать -></a>
+          <a href="#" class="header_link">Узнать &#10230;</a>
         </h4>
-      </div>
-      <div class="header__titke_pic ">
         <img class="header_main-illustration" src="./images/two_again.png" alt="Картина - опять двойка">
-
         <div class="header_square-pic"></div>
-      </div>
     </header>
-    <section class="content">
+
+
+      <!--content-->
       <!--description-->
-        <div class="two-columns">
-          <h2 class="brif">Главные проблемы в обучении</h2>
-          <div class="main-text">
-            <p class="paragraph">
+        <section class="two-columns">
+          <h2 class="two-columns_brif">Главные проблемы в обучении</h2>
+          <div class="two-columns_main-text">
+            <p class="two-columns_paragraph">
               Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. Мы готовимся к экзаменам и
               учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест, но часто в итоге это не
               дает нам реального знания. Зубрежка быстро выветривается и не приносит пользы.
             </p>
-            <p class="paragraph span-accent">
-              <span>Вывод:</span> учиться тоже нужно уметь, но почему-то этому мало где учат. Что с этим делать?
+            <p class="two-columns_paragraph span">
+              <span class="span-accent">Вывод:</span> учиться тоже нужно уметь, но почему-то этому мало где учат. Что с этим делать?
             </p>
-            <p class="paragraph">
+            <p class="two-columns_paragraph">
               Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и
               захватывающим. Эти же техники применяются на примере обучения в Практикуме.
             </p>
           </div>
-        </div>
-      <!--content-->
-      <techniques></techniques>
-      <!--digist-->
+        </section>
+      <!--/description-->
+
+      <!--techniques-->
         <section class="section">
-          <div class="selection"></div>
+          <h2 class="section-title">Техники обучения</h2>
+          <h3 class="section-subtitle">Пять практик от Барбары Оакли</h3>
+          <div class="cards">
+            <div class="cards_item">
+              <img class="cards_item_image" src="#" alt="Изображение карточки">
+              <h3 class="cards_item_title">Два вида внимания</h3>
+              <p class="cards_item_description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
+            </div>
+            <div class="cards_item">
+              <img class="cards_item_image" src="#" alt="Изображение карточки">
+              <h3 class="cards_item_title">Recall</h3>
+              <p class="cards_item_description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
+            </div>
+            <div class="cards_item">
+              <img class="cards_item_image" src="#" alt="Изображение карточки">
+              <h3 class="cards_item_title">Интерливинг</h3>
+              <p class="cards_item_description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
+            </div>
+            <div class="cards_item">
+              <img class="cards_item_image" src="#" alt="Изображение карточки">
+              <h3 class="cards_item_title">Вопросы</h3>
+              <p class="cards_item_description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p>
+            </div>
+            <div class="cards_item">
+              <img class="cards_item_image" src="#" alt="Изображение карточки">
+              <h3 class="cards_item_title">Иллюзия компетентности</h3>
+              <p class="cards_item_description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
+            </div>
+          </div>
+        </section>
+      <!--techniques-->
+
+      <!--digist-->
+        <!--section class="section"-->
           <h2 class="section-title">Цифры и факты</h2>
           <h3 class="section-subtitle">Про учебу и мозг</h3>
           <div class="table">
@@ -91,60 +118,65 @@
               <p class="table_text">Открытие условного рефлекса</p>
             </div>
           </div>
-        </section>
-      <!--kaufman-->
-        <section class="section page_dark">
+        <!--/section-->
+      <!--/digist-->
 
-          <div class="table table_cell_theme_dark">
-            <div class="cell_tem_dark">
+      <!--kaufman-->
+        <section class="page_dark">
+          <h2 class="section-title theme_dark">Принципы обучения</h2>
+          <h3 class="section-subtitle theme_dark">от Джоша Кауфмана</h3>
+          <div class="table">
+            <div class="table_cell_theme_dark">
               <h3 class="table_heading">1</h3>
               <p class="table_text">Выберите привлекательный проект.</p>
             </div>
-            <div class="cell_tem_dark">
+            <div class="table_cell_theme_dark">
               <h3 class="table_heading">2</h3>
               <p class="table_text">Сосредоточьтесь на каком-то одном навыке.</p>
             </div>
-            <div class="cell_tem_dark">
+            <div class="table_cell_theme_dark">
               <h3 class="table_heading">3</h3>
               <p class="table_text">Определите целевой уровень мастерства.</p>
             </div>
-            <div class="cell_tem_dark">
+            <div class="table_cell_theme_dark">
               <h3 class="table_heading">4</h3>
               <p class="table_text">Разбейте навык на элементы.</p>
             </div>
-            <div class="table_cell">
+            <div class="table_cell_theme_dark">
               <h3 class="table_heading">5</h3>
               <p class="table_text">Приготовьте всё необходимое для занятий.</p>
             </div>
-            <div class="cell_tem_dark">
+            <div class="table_cell_theme_dark">
               <h3 class="table_heading">6</h3>
               <p class="table_text">Устраните препятствия для занятий.</p>
             </div>
-            <div class="cell_tem_dark">
+            <div class="table_cell_theme_dark">
               <h3 class="table_heading">7</h3>
               <p class="table_text">Выделите специальное время для занятий.</p>
             </div>
-            <div class="cell_tem_dark">
+            <div class="table_cell_theme_dark">
               <h3 class="table_heading">8</h3>
               <p class="table_text">Создайте быстрые петли обратной связи.</p>
             </div>
-            <div class="cell_tem_dark">
+            <div class="table_cell_theme_dark">
               <h3 class="table_heading">9</h3>
               <p class="table_text">Занимайтесь по расписанию, короткими интенсивными интервалами.</p>
             </div>
-            <div class="cell_tem_dark">
+            <div class="table_cell_theme_dark">
               <h3 class="table_heading">10</h3>
               <p class="table_text">Уделяйте внимание количеству и скорости.</p>
             </div>
           </div>
         </section>
-      <!--content-->
-    <resourses></resourses>
+      <!--/kaufman-->
+
+      <!--/content-->
+      <resourses></resourses>
 
     <footer>
 
     </footer>
-  </div>
+
 </body>
 
 </html>
