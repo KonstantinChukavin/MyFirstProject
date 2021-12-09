@@ -1,0 +1,11 @@
+@import url(../blocks/body/body.css);
+@import url(../blocks/content/description/description.css);
+@import url(../blocks/content/digist/digist.css);
+@import url(../blocks/content/kaufman/kaufman.css);
+@import url(../blocks/content/kaufman/_theme-dark/kaufman_theme-dark.css);
+@import url(../blocks/content/techniques/techniques.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/_theme-dark/footer_theme-dark.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/resources/resources.css);
+@import url(../blocks/title/title.css);
