@@ -138,7 +138,6 @@ content {
   text-align: center;
 }
 
-
 .section {
   width: 80%;
   display: flex;
@@ -240,7 +239,6 @@ content {
 }
 
 .resources_logo-zone {
-  border: 1px solid red;
   width: 1100px;
   margin-top: 80px;
   margin-left: auto;
@@ -253,8 +251,69 @@ content {
 }
 
 .resources_logo {
-  border: 1px solid red;
   width: 270px;
   height: 38px;
   margin: 0px;
+}
+
+.footer {
+  height: 350px;
+}
+
+.footer_columns {
+  width: 90%;
+  height: 250px;
+  display: flex;
+  flex-basis: 711px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  justify-content: space-between;
+}
+
+.column_content-copyring {
+  width: 50%;
+}
+
+.logo_place_footer {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 183px;
+  height: 32px;
+}
+
+.footer_author {
+  position: absolute;
+  left: 0px;
+  bottom: 18px;
+  margin-top: 18px;
+  margin-bottom: 0px;
+  color: white;
+}
+
+.footer_column-links {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.footer_column-heading {
+  margin-bottom: 20px;
+}
+
+.footer_social-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.column-link {
+  margin-bottom: 10px;
+  color: #2f80ed;
+}
+
+.column-link:nth-of-type(3n) {
+  margin-bottom: 0;
 }
