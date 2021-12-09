@@ -1,0 +1,11 @@
+.theme_dark {
+  color: white;
+}
+
+.table_cell_theme_dark {
+  width: 200px;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 80px;
+  color: white;
+}
