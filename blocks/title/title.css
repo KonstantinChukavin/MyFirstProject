@@ -1,21 +1,15 @@
 .section-title {
   width: 60%;
-  margin-top: 100px;
+  margin: 0px auto;
   line-height: 1.15;
   font-size: 60px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: auto;
   text-align: center;
 }
 
 .section-subtitle {
   width: 60%;
-  margin-top: 20px;
+  margin: 0px auto;
   line-height: 34px;
   font-size: 24px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: auto;
   text-align: center;
 }
