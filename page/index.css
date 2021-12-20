@@ -7,6 +7,11 @@
 @import url(../blocks/content/kaufman/_table/kaufman_table.css);
 @import url(../blocks/content/kaufman/_theme-dark/kaufman_theme-dark.css);
 @import url(../blocks/content/techniques/techniques.css);
+@import url(../blocks/content/techniques/_cards/cards.css);
+@import url(../blocks/content/techniques/_cards/_item/cards_item.css);
+@import url(../blocks/content/techniques/_cards/_item/_title/cards_item_title.css);
+@import url(../blocks/content/techniques/_cards/_item/_image/cards_item_image.css);
+@import url(../blocks/content/techniques/_cards/_item/_description/cards_item_description.css);
 @import url(../blocks/content/techniques/_cards/techniques_cards.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/_columns/footer_columns.css);
