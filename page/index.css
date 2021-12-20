@@ -16,7 +16,7 @@
 @import url(../blocks/footer/_columns/_column-links/_social-icon/footer_columns_social-icon.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/_main-illustration/header_main-illustration.css);
-@import url(../blocks/header/_rotation-title/header_rotation-title.css);
+@import url(../blocks/rotation-title/rotation-title.css);
 @import url(../blocks/header/_square-pic/header__square-pic.css);
 @import url(../blocks/header/_subtitle/_subtitle-link/header_subtitle-link.css);
 @import url(../blocks/header/_subtitle/header_subtitle.css);
@@ -26,6 +26,7 @@
 @import url(../blocks/resources/_logo-zone/resources_logo-zone.css);
 @import url(../blocks/title/section-title.css);
 @import url(../blocks/content/video/video.css);
+@import url(../blocks/content/video/_title-video/video_title-video.css);
 @import url(../blocks/content/video/_iframes/video_iframes.css);
 @import url(../blocks/content/video/_iframes/_iframe/video_iframes_iframe.css);
 @import url(../vendor/normalize.css);
@@ -34,3 +35,14 @@
 @import url(../blocks/content/feynman/_title/feynman_title.css);
 @import url(../blocks/content/feynman/_subtitle/feynman_subtitle.css);
 @import url(../blocks/content/feynman/_link/feynman_link.css);
+@import url(../blocks/content/khan/khan.css);
+@import url(../blocks/content/khan/_container/khan_container.css);
+@import url(../blocks/content/khan/_container/_khan_quote/container_khan_quote.css);
+@import url(../blocks/content/khan/_container/_khan_autor/container_khan-author.css);
+@import url(../blocks/content/khan/_container/_khan_quote-author-supline/container_khan_quote-autor-supline.css);
+@import url(../blocks/content/khan/_container/_khan_quote-author/container_khan_quote-autor.css);
+@import url(../blocks/content/khan/_container/_khan_book-container/container_khan_book-container.css);
+@import url(../blocks/content/khan/_container/_khan_book-container/_book-pic/Khan_book-kontainer_book-pic.css);
+@import url(../blocks/content/khan/_container/_khan_book-container/_buy-link/khan_book-container_buy-link.css);
+@import url(../blocks/content/khan/_container/_khan_title/container_khan_title.css);
+@import url(../blocks/content/kaufman/_triangle/kaufman_triangle.css);

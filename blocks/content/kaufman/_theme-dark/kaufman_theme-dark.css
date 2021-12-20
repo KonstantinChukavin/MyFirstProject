@@ -1,5 +1,6 @@
 .theme_dark {
   color: white;
+  z-index: 2;
 }
 
 .table_cell_theme_dark {
@@ -8,4 +9,5 @@
   justify-content: space-between;
   margin-top: 80px;
   color: white;
+  z-index: 1;
 }
