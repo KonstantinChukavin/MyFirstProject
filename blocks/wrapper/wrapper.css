@@ -1,0 +1,8 @@
+.wrapper {
+    margin: 0 auto;
+    padding: 0 15px;
+    min-width: 320px;
+    max-width: 1200px;
+    background-color: #C0DBD9;
+    box-sizing: border-box;
+}

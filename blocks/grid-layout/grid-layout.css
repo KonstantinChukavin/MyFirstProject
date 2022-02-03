@@ -1,0 +1,8 @@
+.grid-layout {
+    margin: 15px 0 0;
+    background: rgba(179, 249, 90, 1);
+    display: grid;
+    grid-template-columns:  minmax(46px, 390px) minmax(46px, 590px) minmax(46px, 160px);
+    grid-template-rows: minmax(46px, 198px) minmax(46px, 198px);
+    gap: 15px;
+}

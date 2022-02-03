@@ -1,0 +1,16 @@
+.header__popup-button {
+    border: none;
+    background-color: rgba(165, 199, 249, 1);
+    margin: 30.5px auto 30.5px 30px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.header__popup-button:hover {
+    opacity: 0.6;
+    transition: .3s;
+}

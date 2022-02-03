@@ -1,0 +1,8 @@
+.flex__frame {
+    margin: 15px;
+    background-color: rgba(13, 137, 176, 1);
+    box-sizing: border-box;
+    width: 115vw;
+    height: 14.6vw;
+    max-height: 199px;
+}
